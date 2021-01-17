@@ -1,36 +1,30 @@
 import {StyleSheet} from 'react-native';
 
-export const appStyles = StyleSheet.create({
+export const homeStyles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
     padding: 10,
   },
-  text: {
-    fontSize: 50,
+  title: {
+    fontSize: 70,
+    fontWeight: 'bold',
   },
-  textTouchable: {
-    fontSize: 50,
-    padding: 10,
+  buttonIncrement: {
+    alignItems: 'center',
+    backgroundColor: 'green',
+    borderRadius: 27,
+    width: '100%',
+  },
+  buttonDecrement: {
+    alignItems: 'center',
+    backgroundColor: 'red',
+    borderRadius: 27,
+    width: '100%',
+  },
+  buttonText: {
     color: 'white',
-  },
-  buttonGreen: {
-    alignItems: 'center',
-    width: '100%',
-    backgroundColor: '#4fd323',
-    borderRadius: 27,
-  },
-  buttonRed: {
-    alignItems: 'center',
-    width: '100%',
-    backgroundColor: '#ff4323',
-    borderRadius: 27,
-  },
-  vSpace: {
-    marginVertical: 10,
-  },
-  hSpace: {
-    marginHorizontal: 10,
+    fontSize: 50,
   },
 });
